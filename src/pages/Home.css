@@ -1,5 +1,5 @@
 .home-page header {
-    background-image: url(../utils/img/header-img.jpg);
+    background-image: url('../components/Sahyadri-Food-Court\ \(1\).jpg');
 }
 
 header {
@@ -17,7 +17,7 @@ header h1 {
 }
 
 .menu-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../utils/img/menu-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../components/Sahyadri-Food-Court\ \(1\).jpg);
     background-size: cover;
     background-position: center;
 }

@@ -9,83 +9,83 @@ import DessertImg from '../utils/img/dessert.jpg';
 const breakfast = [
     {
         id: 1,
-        name: 'English Breakfast',
-        description: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-        price: '£12'
+        name: 'Dosa',
+        description: 'Dosas are served hot, often with chutney and sambar. Dosas are popular in South Asia as well as around the world.',
+        price: '$0.53'
     },
     {
         id: 2,
-        name: 'Avocado Toast',
-        description: 'poached egg, avocado, onion, tomatoes, bread',
-        price: '£8'
+        name: 'Idli-Vada',
+        description: 'Idli, Vadai, Sambar, Coconut Chutney, Tomato Chutney, Badusha and Paal Paniyaram.',
+        price: '$0.59'
     },
     {
         id: 3,
-        name: 'Burrito',
-        description: 'tortilla, egg, cheese, potatoes, pork meat',
-        price: '£11'
+        name: 'Sajjige Bajil',
+        description: 'Avalakki Uppitu/Sajjige Bajil, is a classic South Indian breakfast dish',
+        price: '$0.65'
     }
 ];
 const lunch = [
     {
         id: 1,
-        name: 'Caesar Salad',
-        description: 'chicken breast, romaine lettuce, croutons, parmesan',
-        price: '£15'
+        name: 'Mini Meal',
+        description: 'Mini Meals is a common meal in any restaurants in South India.',
+        price: '$0.71'
     },
     {
         id: 2,
-        name: 'Spaghetti Carbonara',
-        description: 'spaghetti, pancetta, garlic, eggs, parmesan, pepper',
-        price: '£14'
+        name: 'Kebab Rice',
+        description: 'literally means white rice with kebab',
+        price: '$1.43'
     },
     {
         id: 3,
-        name: 'Pizza',
-        description: 'chorizo, italian salami, tomatoes, mushrooms, olives',
-        price: '£12'
+        name: 'Biriyani',
+        description: 'Biryani, flavourful rice dish of Persian origin that has become a popular celebratory dish in South Asia, as well as a widely sold street food.',
+        price: '$1.79'
     }
 ];
 
 const dinner = [
     {
         id: 1,
-        name: 'Spicy Beef',
-        description: 'spicy beef, potatoes, carrots, cheese sauce, spices',
-        price: '£17'
+        name: 'Paneer Rice',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, esse nulla,',
+        price: '$1.43'
     },
     {
         id: 2,
-        name: 'Spaghetti Bolognese',
-        description: 'onion, carrot, celery, minced meat, spaghetti, parmesan',
-        price: '£15'
+        name: 'Egg Chilli',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        price: '$0.59'
     },
     {
         id: 3,
-        name: 'Chickpea Curry',
-        description: 'onion, chickpea, garlic, mushrooms, tomatoes, spices',
-        price: '£12'
+        name: 'Chicken Curry',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        price: '$0.95'
     }
 ];
 
 const dessert = [
     {
         id: 1,
-        name: 'Lemon Cake',
-        description: 'flour, sugar, baking powder, lemon',
-        price: '£9'
+        name: 'Payasa',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        price: '$0.53'
     },
     {
         id: 2,
-        name: 'Cinnamon Rolls',
-        description: 'flour, salt, sugar, cinnamon, yeast, sour cream, milk',
-        price: '£11'
+        name: 'Sheera',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        price: '$0.41'
     },
     {
         id: 3,
         name: 'Vegan Pancakes',
         description: 'flour, sugar, baking powder, soya milk, blueberries',
-        price: '£8'
+        price: '$0.31'
     }
 ];
 

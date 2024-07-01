@@ -1,10 +1,10 @@
 import React from "react";
 import { Card, CardBody, CardText, CardFooter, CardTitle } from 'react-bootstrap';
 import './Reviews.css';
-import Person1 from '../utils/img/person1.jpg';
-import Person2 from '../utils/img/person2.jpg';
-import Person3 from '../utils/img/person3.jpg';
-import Person4 from '../utils/img/person4.jpg';
+import Person1 from '../utils/img/person1.jpeg';
+import Person2 from '../utils/img/person2.jpeg';
+import Person3 from '../utils/img/person3.jpeg';
+import Person4 from '../utils/img/person4.jpeg';
 
 export function Reviews() {
     return (
@@ -22,7 +22,7 @@ export function Reviews() {
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
                             <img src={Person1} className="img-fluid rounded-circle mx-3 shadow" alt="" />
-                            <CardTitle className="text-success">John Mike</CardTitle>
+                            <CardTitle className="text-success">Srishti Rai M</CardTitle>
                         </CardFooter>
                     </Card>
                 </div>
@@ -37,7 +37,7 @@ export function Reviews() {
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
                             <img src={Person2} className="img-fluid rounded-circle mx-3 shadow" alt="" />
-                            <CardTitle className="text-success">Maria Cruz</CardTitle>
+                            <CardTitle className="text-success">Harshitha D</CardTitle>
                         </CardFooter>
                     </Card>
                 </div>
@@ -52,7 +52,7 @@ export function Reviews() {
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
                             <img src={Person3} className="img-fluid rounded-circle mx-3 shadow" alt="" />
-                            <CardTitle className="text-success">Anna Gold</CardTitle>
+                            <CardTitle className="text-success">Samreena</CardTitle>
                         </CardFooter>
                     </Card>
                 </div>
@@ -67,7 +67,7 @@ export function Reviews() {
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
                             <img src={Person4} className="img-fluid rounded-circle mx-3 shadow" alt="" />
-                            <CardTitle className="text-success">Nick Burn</CardTitle>
+                            <CardTitle className="text-success">Preeti Chandrahas Bisanalli</CardTitle>
                         </CardFooter>
                     </Card>
                 </div>

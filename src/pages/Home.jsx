@@ -15,7 +15,7 @@ function Home() {
                     <div className='row'>
                         <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
                             <h2 className='mb-0 text-black fw-bold'>Welcome To</h2>
-                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>React Restaurant</h1>
+                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>SCEM Restaurant</h1>
                             <MenuBtn />
                         </div>
                     </div>
@@ -46,16 +46,16 @@ function Home() {
                             <h3 className='fs-2 mb-5'>Food</h3>
                             <ul className='px-0'>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>English Breakfast</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£12</p>
+                                    <p className='fs-3 mx-2'>Idli Vada</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$0.77</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>Spicy Beef</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£15</p>
+                                    <p className='fs-3 mx-2'>Palav</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$0.71</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>Saghetti Bolognese</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£11</p>
+                                    <p className='fs-3 mx-2'>Kebab Rice</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$1.43</p>
                                 </li>
                             </ul>
                         </div>
@@ -64,15 +64,15 @@ function Home() {
                             <ul className='px-0'>
                                 <li className='d-flex justify-content-between'>
                                     <p className='fs-3 mx-2'>Coffee</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£2</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$0.23</p>
+                                </li>
+                                <li className='d-flex justify-content-between'>
+                                    <p className='fs-3 mx-2'>Tea</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$0.23</p>
                                 </li>
                                 <li className='d-flex justify-content-between'>
                                     <p className='fs-3 mx-2'>Juice</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£1</p>
-                                </li>
-                                <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>Spirits</p>
-                                    <p className='fs-3 mx-2 text-success fw-nold'>£5</p>
+                                    <p className='fs-3 mx-2 text-success fw-nold'>$0.59</p>
                                 </li>
                             </ul>
                         </div>
