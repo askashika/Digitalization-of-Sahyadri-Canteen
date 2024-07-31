@@ -37,6 +37,10 @@
   }
 }
 
+.navbar .ms-auto {
+  margin-left: auto;
+}
+
 
 form {
   max-width: 500px;
@@ -92,4 +96,53 @@ form button:hover {
 .nav-link:hover {
   color: #28a745; 
   text-decoration: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.social-icons a {
+  color: #000; /* Default color of icons */
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change to your desired hover color */
+}
+
+
+
+
+
+/* Container with padding */
+.container.py-5 {
+  padding: 3rem 1.5rem; /* Adjust padding as needed */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+  position: relative; /* Ensure the container is positioned for any pseudo-elements */
+}
+
+/* Hover effect for the container */
+.container.py-5:hover {
+  background-color: #f1f1f1; /* Light background color on hover */
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+}
+
+/* Optional: Hover effect for child elements within the container */
+.container.py-5 .card,
+.container.py-5 .btn {
+  transition: transform 0.3s, background-color 0.3s; /* Transition for child elements */
+}
+
+.container.py-5:hover .card,
+.container.py-5:hover .btn {
+  transform: scale(1.02); /* Slight zoom effect on child elements */
+  background-color: #e0e0e0; /* Change background color on hover */
 }

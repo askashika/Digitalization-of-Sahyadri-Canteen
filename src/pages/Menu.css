@@ -1,4 +1,150 @@
+/* Menu Page Header */
 .menu-page header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../utils/img/menu-img.jpg);
     height: 50vh;
+    background-size: cover; /* Ensure the background image covers the header */
+    background-position: center; /* Center the background image */
+}
+
+/* Menu Page */
+.menu-page {
+    background-color: #f8f9fa;
+    padding-bottom: 2rem;
+}
+
+/* Header */
+.header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Header Title */
+.header h1 {
+    margin-top: 2rem;
+}
+
+/* Sections */
+.breakfast, .lunch, .dinner, .dessert {
+    padding: 2rem 0;
+}
+
+/* Section Title */
+.section-title {
+    color: #28a745;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s, transform 0.3s; /* Transition for hover effects */
+}
+
+.card:hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+/* Card Body */
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+/* Card Button */
+.card-body .btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, color 0.3s; /* Transition for button hover effects */
+}
+
+.card-body .btn:hover {
+    background-color: #28a745; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Input Group */
+.card-body .input-group {
+    width: 100%;
+    max-width: 100px;
+}
+
+/* Input Field */
+.card-body .input-group input {
+    height: 2rem;
+    font-size: 0.8rem;
+    padding: 0.25rem;
+}
+
+/* Order Summary */
+.order-summary {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Order Summary List Group Item */
+.order-summary .list-group-item {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Order Summary Button */
+.order-summary .btn {
+    margin-top: 1rem;
+    transition: background-color 0.3s, color 0.3s; /* Transition for button hover effects */
+}
+
+.order-summary .btn:hover {
+    background-color: #28a745; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Image Container */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+/* Image Styles */
+.image-container img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s; /* Transition for image hover effects */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
 }

@@ -1,4 +1,31 @@
+.reviews-section {
+    margin-top: 2rem; /* Ensure there's space above the reviews section */
+}
+
+.review-card {
+    width: 100%; /* Full width of the column */
+    max-width: 500px; /* Fixed maximum width for all cards */
+    margin: auto; /* Center the card horizontally */
+    border: 1px solid #ddd; /* Optional: Add border to visually define the card */
+}
+
 .reviews-section img {
-    width: 15%;
-    border-width: thin;
+    width: 20%; /* Adjust size of images within cards */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.star {
+    font-size: 1.5rem; /* Adjust star size */
+    color: #ccc; /* Default star color */
+    margin: 0 0.1rem; /* Spacing between stars */
+}
+
+.star.filled {
+    color: #f39c12; /* Filled star color */
 }
