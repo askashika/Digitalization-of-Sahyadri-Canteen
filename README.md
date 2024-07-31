@@ -1,83 +1,112 @@
-# React JS Restaurant Website Project | Responsive Bootstrap 5 Design
+# Digitalization of Sahyadri Canteen
 
-## Tutorial YouTube link - [React JS Restaurant Website Project | Responsive Bootstrap 5 Design](https://youtu.be/MczKE_IWNjQ?si=O3S3Stx1bhVgza3X)
+Welcome to the Digitalization of Sahyadri Canteen repository! This project aims to modernize and streamline the operations of the Sahyadri Canteen by implementing a digital solution.
 
-<img src="React JS Restaurant Website Img.jpg" alt="React JS Restaurant Website" />
+## Table of Contents
 
-## For this website I used:
-- [React JS](https://react.dev/)
-- [Visual Studio Code Editor](https://code.visualstudio.com/)
-- [Bootstrap 5](https://getbootstrap.com/) - CSS Framework
-- [Google Fonts](https://fonts.google.com/) - Poppins Family Font
-- [Unsplash](https://unsplash.com/) - Free Images
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-# Getting Started with Create React App
+## Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Digitalization of Sahyadri Canteen project is designed to enhance the customer experience by providing a user-friendly platform for ordering food, managing orders, and tracking sales. This system will help reduce wait times, minimize errors, and improve the overall efficiency of the canteen operations.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Menu Management**: Administrators can add, update, and remove menu items.
+- **Order Management**: Customers can place orders online, view their order history, and track the status of their orders.
+- **Real-Time Updates**: Orders and menu updates are reflected in real-time.
+- **Payment Integration**: Secure payment options for customers.
+- **Admin Dashboard**: A comprehensive dashboard for administrators to manage orders, view sales reports, and track inventory.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payment Gateway**: Stripe (or any other preferred payment gateway)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To set up the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**:
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/ashika8811/Digitalization-of-Sahyadri-Canteen.git
+    cd Digitalization-of-Sahyadri-Canteen
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install Dependencies**:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    For the backend:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    cd backend
+    npm install
+    ```
 
-### `npm run eject`
+    For the frontend:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    cd ../frontend
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Run the Application**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Start the backend server:
 
-## Learn More
+    ```bash
+    cd backend
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Start the frontend development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd ../frontend
+    npm start
+    ```
 
-### Code Splitting
+    The application should now be running on `http://localhost:3000` for the frontend and `http://localhost:5000` for the backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. **Access the Application**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Open your web browser and go to `http://localhost:3000`.
 
-### Making a Progressive Web App
+2. **Admin Login**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Use the admin credentials to log in and access the admin dashboard.
 
-### Advanced Configuration
+3. **Place an Order**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    Browse the menu, add items to your cart, and proceed to checkout to place an order.
 
-### Deployment
+4. **Manage Orders**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    Administrators can manage orders, update their status, and view order details in the admin dashboard.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We welcome contributions from the community! If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
