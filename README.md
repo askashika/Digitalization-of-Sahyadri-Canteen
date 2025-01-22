@@ -40,8 +40,8 @@ To set up the project locally, follow these steps:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/ashika8811/Digitalization-of-Sahyadri-Canteen.git
-    cd Digitalization-of-Sahyadri-Canteen
+    git clone https://github.com/ashika8811/SahyaCibos.git
+    cd SahyaCibos
     ```
 
 2. **Install Dependencies**:
